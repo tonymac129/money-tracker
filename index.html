@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Money Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <h1 class="title">Money Tracker</h1>
+      <p class="description">Track your transactions and balance easily with a simple interface. Add an item to get started.</p>
+      <div class="balance"><span id="sign"></span>$<span id="dollar">0</span>.<span id="cent">00</span></div>
+      <form id="form" class="form">
+        <input type="text" placeholder="Item name" id="name-input" autocomplete="new-password" />
+        <input type="text" placeholder="Item cost" id="cost-input" autocomplete="new-password" />
+        <button type="submit">Add</button>
+      </form>
+      <div class="list" id="list">No items so far. Add an item above to get started!</div>
+    </div>
+    <div class="footer">&copy; <span id="year"></span> TonyMac129 with Font Awesome's icons</div>
+    <div id="clear">Clear saved data</div>
+    <script src="script.js"></script>
+  </body>
+</html>
